@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,300;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:wght@100;300;400;500;600;700;800;900&display=swap');
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding: 1.25rem; /* 20px / 16px = 1.25rem */
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 0.0625rem solid #ddd; /* 1px / 16px = 0.0625rem */
+    height: 2.1875rem; /* 35px / 16px = 2.1875rem */
+}
+
+#panier-icon {
+    width: 2rem; /* 32px / 16px = 2rem */
+    height: 2rem; /* 32px / 16px = 2rem */
+    vertical-align: middle;
+}
+
+
+.logo_title, .navbar ul li a {
+    color: black;
+    margin: 3.125rem; /* 50px / 16px = 3.125rem */
+    margin-top: 1.25rem; /* 20px / 16px = 1.25rem */
+}
+
+#apropos {
+    color: black;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 3.125rem; /* 50px / 16px = 3.125rem */
+    padding: 0;
+    list-style: none;
+    margin-top: 1.25rem; /* 20px / 16px = 1.25rem */
+}
+
+.navbar ul li a {
+    padding: 0.75rem; /* 12px / 16px = 0.75rem */
+    margin: 0 0.375rem; /* 6px / 16px = 0.375rem */
+    margin-right: 3.125rem; /* 50px / 16px = 3.125rem */
+    margin-top: 1.25rem; /* 20px / 16px = 1.25rem */
+}
+
+.navbar ul li a:hover {
+    color: rgb(159, 157, 155);
+    border-radius: 0.25rem; /* 4px / 16px = 0.25rem */
+    text-decoration: none;
+    padding: 3.125rem; /* 50px / 16px = 3.125rem */
+    margin-top: 1.25rem; /* 20px / 16px = 1.25rem */
+}
+
+.nomboutique {
+    color: red;
+    font-family: sans-serif;
+    width: 28.125rem; /* 450px / 16px = 28.125rem */
+    height: 6.25rem; /* 100px / 16px = 6.25rem */
+    margin-left: 4.375rem; /* 70px / 16px = 4.375rem */
+    margin: 2.5rem; /* 40px / 16px = 2.5rem */
+    margin-top: 0.625rem; /* 10px / 16px = 0.625rem */
+
+    /* Rendre responsive */
+    @media (max-width: 768px) {
+        width: 100%; /* La largeur occupe toute la largeur de l'écran */
+        height: auto; /* La hauteur s'ajuste automatiquement au contenu */
+        margin-left: 0; /* Plus de marge à gauche */
+        margin: 1rem 0; /* Marges supérieure et inférieure de 1rem, pas de marges à gauche et à droite */
+        margin-top: 0.625rem; /* Conservez la marge supérieure si nécessaire */
+    }
+}
+
+.partI {
+    width: 83.8125rem; /* 1341px / 16px = 83.8125rem */
+    height: 117.5rem; /* 1620px / 16px = 101.25rem */
+    background-image: url(background13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+}
+
+.logo-container img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.phrase-agrandie {
+    font-size: 4.75rem; /* 60px / 16px = 3.75rem */
+    color: aliceblue;
+    margin-left: 275px;
+    width: 18.75rem; /* 300px / 16px = 18.75rem */
+    font-family: sans-serif;
+}
+
+.part2 {
+    width: 75rem; /* 1200px / 16px = 75rem */
+    height: 59.1875rem; /* 950px / 16px = 47.1875rem */
+    margin: 1.25rem; /* 20px / 16px = 1.25rem */
+    border-radius: 1.25rem; /* 20px / 16px = 1.25rem */
+    background-color: white;
+    margin-left: 4.375rem; /* 70px / 16px = 4.375rem */
+}
+
+.logoboutique2 {
+    border-radius: 12.5rem; /* 200px / 16px = 12.5rem */
+    margin-left: 0.625rem; /* 10px / 16px = 0.625rem */
+    height: 14.375rem; /* 230px / 16px = 14.375rem */
+}
+
+.amsalogo {
+    border-radius: 1.875rem; /* 30px / 16px = 1.875rem */
+    height: 12.5rem; /* 200px / 16px = 12.5rem */
+    margin-left: 21.875rem; /* 350px / 16px = 21.875rem */
+    width: 34.375rem; /* 550px / 16px = 34.375rem */
+}
+
+.image-container {
+    display: flex;
+}
+
+.bamba2 {
+    font-size: 2.0625rem; /* 33px / 16px = 2.0625rem */
+    color: black;
+    margin-left: 5.625rem; /* 90px / 16px = 5.625rem */
+    width: 59.375rem; /* 950px / 16px = 59.375rem */
+    font-family: sans-serif;
+}
+
+.image-container2 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container2 img {
+    width: 31.25rem; /* 500px / 16px = 31.25rem */
+    height: 18.75rem; /* 300px / 16px = 18.75rem */
+    border-radius: 1.25rem; /* 20px / 16px = 1.25rem */
+    margin-left: 5.625rem; /* 90px / 16px = 5.625rem */
+}
+
+.image-container .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.3125rem; /* 5px / 16px = 0.3125rem */
+    display: none;
+}
+
+.image-container:hover .caption {
+    display: block;
+}
+
+.image-container3 {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container3 img {
+    width: 31.25rem; /* 500px / 16px = 31.25rem */
+    height: 18.75rem; /* 300px / 16px = 18.75rem */
+    margin-left: 10rem; /* 160px / 16px = 10rem */
+    border-radius: 1.25rem; /* 20px / 16px = 1.25rem */
+}
+
+.caption1 {
+    margin-left: 16.25rem; /* 260px / 16px = 16.25rem */
+    color: antiquewhite;
+    font-size: 1.5625rem; /* 25px / 16px = 1.5625rem */
+}
+
+.caption2 {
+    margin-left: 21.875rem; /* 350px / 16px = 21.875rem */
+    color: antiquewhite;
+    font-size: 1.5625rem; /* 25px / 16px = 1.5625rem */
+}
+
+.part3 {
+    background-image: url(newbackground3.png);
+    width: 83.8125rem; /* 1341px / 16px = 83.8125rem */
+    height: 4.375rem; /* 70px / 16px = 4.375rem */
+    margin-top: 0;
+}
+
+.karite {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.125rem; /* 50px / 16px = 3.125rem */
+    text-align: center;
+    font-size: 2.1875rem; /* 35px / 16px = 2.1875rem */
+}
+
+.karite2 {
+    margin-top: 0;
+}
+
+
+
+#nombre-articles {
+    background-color: black;
+    color: white;
+    padding: 0.1875rem 0.375rem; /* 3px / 16px = 0.1875rem, 6px / 16px = 0.375rem */
+    border-radius: 3.125rem; /* 50px / 16px = 3.125rem */
+    font-size: 0.75rem;
+    position: relative;
+    top: -0.625rem; /* -10px / 16px = -0.625rem */
+    left: -0.5rem; /* -8px / 16px = -0.5rem */
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.875rem; /* 30px / 16px = 1.875rem */
+}
+
+.wrapper {
+    border: 0.06rem solid #ddd; /* 1px / 16px = 0.0625rem */
+    text-align: center;
+    padding: 0;
+    width: 20.5625rem; /* 329px / 16px = 20.5625rem */
+    height: auto;
+    border-radius: 0.625rem; /* 10px / 16px = 0.625rem */
+    margin: 0 0.625rem; /* 10px / 16px = 0.625rem */
+    box-shadow: 0 0 0 0.0625rem rgba(0, 0, 0, 0.1); /* 1px / 16px = 0.0625rem */
+}
+
+.wrapper img {
+    width: 20.5625rem; /* 329px / 16px = 20.5625rem */
+    height: 19.375rem; /* 310px / 16px = 19.375rem */
+    transition: transform 0.3s;
+
+}
+
+.wrapper img:hover{
+    transform: scale(1.2);
+}
+
+.image-wrapper {
+    width: 20.5625rem; /* 329px / 16px = 20.5625rem */
+    overflow: hidden;
+    height: 19.375rem; /* 310px / 16px = 19.375rem */
+    border-bottom: 0.06rem solid #ddd;
+}
+
+.zoomable-image {
+    width: 100%;
+    transition: transform 0.2s;
+}
+
+.zoomable-image:hover {
+    transform: scale(1.2);
+}
+
+.city-description {
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.625rem; /* 10px / 16px = 0.625rem */
+}
+
+.seemore-btn {
+    border: 0;
+    border-radius: 4px;
+    padding:  10px;
+    background: #FE4B4B;
+    line-height: 1em;
+    color: blanchedalmond;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: center;
+    margin-left: 0,625rem;
+    cursor: pointer;
+    }
+
+.karite-name {
+    color: black;
+    font-family: sans-serif;
+    font-size: 1,063rem;
+}
+
+.rectangle {
+    width: 71,875rem;
+    height: 600px;
+    position: relative;
+    margin-left: 1rem;
+    border: 2px solid #ddd ;
+    border-radius: 20px;
+}
+
+.red-zone {
+    width: 33.33%; 
+    height: 100%;
+    background-color: #FE4B4B;
+    position: absolute;
+}
+
+.white-zone {
+    width: 66.67%; 
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+}
+
+.text-in-red {
+    color: white;
+    text-align: center;
+    padding: 1,25rem;
+    margin-top: 250px;
+}
+
+.text-in-white {
+    color: black;
+    padding: 1,25rem;
+}
+
+.phrase-agrandie2 {
+    font-size: 60px;
+    color: black;
+    margin-left: 23,75rem;
+    width: 18,75rem;
+    font-family: sans-serif;
+}
+
+.phrase-agrandie3 {
+    font-size: 60px;
+    color: white;
+    margin-left: 23,75rem;
+    width: 18,75rem;
+    font-family: sans-serif;
+   margin-left: 0,625rem;
+}
+
+.prix {
+    margin-left: 6.6em; 
+}
+
+#titre-panier{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-family: "Allerta Stencil", sans-serif;
+}
+
+#basket-fiche{
+    width: 85%;
+    align-items: flex-start;
+}
+
+#injectJs{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+#basketProduit{
+    width: 90%;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 16%), 0 2px 5px rgb(0 0 0 / 26%);
+    padding: 20px;
+}
+
+#blocImage{
+    width: 30%;
+}
+
+#blocImage > img {
+    width: 100%;
+    height: auto;
+}
+
+#blocProduit{
+    width: 30%;
+}
+
+#bloc-change-produit{
+    width: 30%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.container{
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    transition: transform .5s;
+}
+
+svg{
+    width: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+header .icon-cart{
+    position: relative;
+}
+
+
+header .icon-cart span{
+    width: 30px;
+    display: flex;
+    height: 30px;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}
+
+.listProduct .item img{
+    width: 90%;
+    filter: drop-shadow(0 50px 20px #0009);
+}
+
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.listProduct .item{
+    background-color: #eeeee6;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.listProduct .item h2{
+    font-weight: 500;
+    font-size: large;
+}
+
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-weight: small;
+}
+
+.listProduct .item button{
+    background-color: #FE4B4B;
+    color: #eee;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.cartTab{
+    width: 400px;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: .5s;
+}
+
+body.showCart .cartTab{
+    inset: 0 0 0 auto;
+}
+
+body.showCart .container{
+    transform: translateX(-250px);
+}
+
+
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cartTab .btn .close{
+    background-color: #eee;
+}
+
+.cartTab .listCart .item img{
+width: 100%;
+}
+
+.cartTab .listCart .item{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.listCart .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+}
+
+.listCart .item:nth-child(even){
+    background-color: #eee1;
+}
+
+.listCart{
+    overflow: auto;
+}
+
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .listProduct{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .listProduct{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.quantity-button {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  
+  .quantity-text {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
